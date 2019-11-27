@@ -216,6 +216,8 @@ input, select, textarea {
 		height: 100%;
 		left: 0;
 		opacity: 0;
+		overflow-y: scroll;
+		height: 120vh;
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -312,7 +314,8 @@ input, select, textarea {
 	}
 
 	#bg {
-		background-size: 2250px auto;
+		/*background-size: 2250px auto;*/
+		background-size: contain;
 		width: 6750px;
 	}
 
@@ -824,10 +827,16 @@ input, select, textarea {
 			}
 		}
 
+/*
+
 		#bg {
 			background-size: 1500px auto;
 			width: 4500px;
-		} }
+		}
+
+	*/
+
+}
 
 /* Normal */
 
@@ -906,10 +915,14 @@ input, select, textarea {
 			}
 		}
 
+/*
 		#bg {
 			background-size: 750px auto;
 			width: 2250px;
-		} }
+		}
+		*/
+
+	}
 
 /* Mobile */
 
@@ -991,11 +1004,13 @@ input, select, textarea {
 				transform: translate3d(-300px,0,0);
 			}
 		}
+/*
 
 		#bg {
 			background-size: 300px auto;
 			width: 900px;
 		}
+		*/
 
 	/* Header */
 
@@ -1090,10 +1105,7 @@ input, select, textarea {
 			}
 		}
 
-		#bg {
-			background-size: 412.5px auto;
-			width: 1237.5px;
-		}
+
 
 	/* Header */
 
