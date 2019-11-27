@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	overflow-y: auto;
 }
 
 table#table1 {
@@ -65,6 +66,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	overflow-y: auto;
 }
 
 mark {
@@ -96,7 +98,7 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		overflow: hidden;
+		overflow-y: auto;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,7 +118,7 @@ input, select, textarea {
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
-		line-height: 1.75em;
+		line-height: 1.75em
 	}
 
 	a {
@@ -742,9 +744,9 @@ input, select, textarea {
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		bottom: 0;
 		cursor: default;
-		height: 6em;
+		height: 3em;
 		left: 0;
-		line-height: 8em;
+		line-height: 1em;
 		position: absolute;
 		text-align: center;
 		width: 100%;
@@ -758,6 +760,7 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 13pt;
+
 			}
 
 		/* BG */
