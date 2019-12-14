@@ -1044,11 +1044,11 @@ height: 100%;
 		}
 
 			#header nav a:hover {
-				font-size: 1em;
+				font-size: 1.2em;
 			}
 
 			#header nav a:active {
-				font-size: 1em;
+				font-size: 1.5em;
 			} }
 
 /* Mobile (Portrait) */
