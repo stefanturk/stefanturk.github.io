@@ -36,9 +36,9 @@ body {
 
 table#table1 {
 		background-color: #6FE4ED;
-		width:80%;
-    margin-left:10%;
-    margin-right:10%;
+		width:60%;
+    margin-left:20%;
+    margin-right:20%;
 		height: 5%
 		color: White;
 		font-weight: 900;
@@ -74,6 +74,12 @@ body {
 mark {
 	background-color: transparent;
 	color: inherit;
+}
+
+marquee {
+	padding: 2px;
+	/* background: yellow; */
+
 }
 
 input::-moz-focus-inner {
