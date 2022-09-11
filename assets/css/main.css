@@ -479,10 +479,10 @@ height: 100%;
 	}
 
 	#overlay {
-		-moz-animation: overlay 1.5s 1.5s forwards;
-		-webkit-animation: overlay 1.5s 1.5s forwards;
-		-ms-animation: overlay 1.5s 1.5s forwards;
-		animation: overlay 1.5s 1.5s forwards;
+		-moz-animation: overlay .1s .1s forwards;
+		-webkit-animation: overlay .1s .1s forwards;
+		-ms-animation: overlay .1s .1s forwards;
+		animation: overlay .1s .1s forwards;
 		background-attachment: fixed, fixed;
 		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
 		background-position: top left, center center;
@@ -662,10 +662,10 @@ height: 100%;
 	}
 
 	#header {
-		-moz-animation: header 1s 2.25s forwards;
-		-webkit-animation: header 1s 2.25s forwards;
-		-ms-animation: header 1s 2.25s forwards;
-		animation: header 1s 2.25s forwards;
+		-moz-animation: header .1s .1s forwards;
+		-webkit-animation: header .1s .1s forwards;
+		-ms-animation: header .1s .1s forwards;
+		animation: header .1s .1s forwards;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -710,6 +710,7 @@ height: 100%;
 			margin: 1.5em 0 0 0;
 		}
 
+			div.content nav li,
 			#header nav li {
 				-moz-animation: nav-icons 0.5s ease-in-out forwards;
 				-webkit-animation: nav-icons 0.5s ease-in-out forwards;
@@ -733,73 +734,73 @@ height: 100%;
 			}
 
 				#header nav li:nth-child(1) {
-					-moz-animation-delay: 2.5s;
-					-webkit-animation-delay: 2.5s;
-					-ms-animation-delay: 2.5s;
-					animation-delay: 2.5s;
+					-moz-animation-delay: .1s;
+					-webkit-animation-delay: .1s;
+					-ms-animation-delay: .1s;
+					animation-delay: .1s;
 				}
 
 				#header nav li:nth-child(2) {
-					-moz-animation-delay: 2.75s;
-					-webkit-animation-delay: 2.75s;
-					-ms-animation-delay: 2.75s;
-					animation-delay: 2.75s;
+					-moz-animation-delay: .1s;
+					-webkit-animation-delay: .1s;
+					-ms-animation-delay: .1s;
+					animation-delay: .1s;
 				}
 
 				#header nav li:nth-child(3) {
-					-moz-animation-delay: 3s;
-					-webkit-animation-delay: 3s;
-					-ms-animation-delay: 3s;
-					animation-delay: 3s;
+					-moz-animation-delay: .1s;
+					-webkit-animation-delay: .1s;
+					-ms-animation-delay: .1s;
+					animation-delay: .1s;
 				}
 
 				#header nav li:nth-child(4) {
-					-moz-animation-delay: 3.25s;
-					-webkit-animation-delay: 3.25s;
-					-ms-animation-delay: 3.25s;
-					animation-delay: 3.25s;
+					-moz-animation-delay: .1s;
+					-webkit-animation-delay: .1s;
+					-ms-animation-delay: .1s;
+					animation-delay: .1s;
 				}
 
 				#header nav li:nth-child(5) {
-					-moz-animation-delay: 3.5s;
-					-webkit-animation-delay: 3.5s;
-					-ms-animation-delay: 3.5s;
-					animation-delay: 3.5s;
+					-moz-animation-delay: .1s;
+					-webkit-animation-delay: .1s;
+					-ms-animation-delay: .1s;
+					animation-delay: .1s;
 				}
 
 				#header nav li:nth-child(6) {
-					-moz-animation-delay: 3.75s;
-					-webkit-animation-delay: 3.75s;
-					-ms-animation-delay: 3.75s;
-					animation-delay: 3.75s;
+					-moz-animation-delay: .1s;
+					-webkit-animation-delay: .1s;
+					-ms-animation-delay: .1s;
+					animation-delay: .1s;
 				}
 
 				#header nav li:nth-child(7) {
-					-moz-animation-delay: 4s;
-					-webkit-animation-delay: 4s;
-					-ms-animation-delay: 4s;
-					animation-delay: 4s;
+					-moz-animation-delay: .1s;
+					-webkit-animation-delay: .1s;
+					-ms-animation-delay: .1s;
+					animation-delay: .1s;
 				}
 
 				#header nav li:nth-child(8) {
-					-moz-animation-delay: 4.25s;
-					-webkit-animation-delay: 4.25s;
-					-ms-animation-delay: 4.25s;
-					animation-delay: 4.25s;
+					-moz-animation-delay: .1s;
+					-webkit-animation-delay: .1s;
+					-ms-animation-delay: .1s;
+					animation-delay: .1s;
 				}
 
 				#header nav li:nth-child(9) {
-					-moz-animation-delay: 4.5s;
-					-webkit-animation-delay: 4.5s;
-					-ms-animation-delay: 4.5s;
-					animation-delay: 4.5s;
+					-moz-animation-delay: .1s;
+					-webkit-animation-delay: .1s;
+					-ms-animation-delay: .1s;
+					animation-delay: .1s;
 				}
 
 				#header nav li:nth-child(10) {
-					-moz-animation-delay: 4.75s;
-					-webkit-animation-delay: 4.75s;
-					-ms-animation-delay: 4.75s;
-					animation-delay: 4.75s;
+					-moz-animation-delay: .1s;
+					-webkit-animation-delay: .1s;
+					-ms-animation-delay: .1s;
+					animation-delay: .1s;
 				}
 
 			#header nav a {
@@ -809,6 +810,7 @@ height: 100%;
 				display: inline-block;
 			}
 
+			div.content nav a:before,
 				#header nav a:before {
 					-moz-transition: all 0.2s ease-in-out;
 					-webkit-transition: all 0.2s ease-in-out;
@@ -826,10 +828,12 @@ height: 100%;
 					width: 2.5em;
 				}
 
+
 				#header nav a:hover {
 					font-size: 1.1em;
 				}
 
+	div.content nav a:hover:before,
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
 						color: #fff;
@@ -1232,6 +1236,19 @@ height: 100%;
 
 /* Top Navigation Bar*/
 
+#header {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+/* Style the links inside the navigation bar */
+		/* .topnav {
+			position: fixed;
+			top: 0;
+			z-index: 999;
+		} */
+
 		/* Style the links inside the navigation bar */
 		.topnav a {
 		  float: left;
@@ -1240,6 +1257,7 @@ height: 100%;
 		  padding: 16px 16px;
 		  text-decoration: none;
 		  font-size: 20px;
+			/* position: fixed; */
 		}
 
 		/* Change the color of links on hover */
@@ -1252,4 +1270,11 @@ height: 100%;
 		.topnav a.active {
 		  background-color: #53A3B3;
 		  color: white;
+		}
+
+		div.content {
+			display: inline-block;
+			position: relative;
+			text-align: center;
+			width: 90%;
 		}
