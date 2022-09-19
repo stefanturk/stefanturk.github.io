@@ -864,7 +864,7 @@ height: 100%;
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		bottom: 0;
 		cursor: default;
-		height: 31em;
+		height: 1em;
 		left: 0;
 		line-height: 1em;
 		position: fixed;
