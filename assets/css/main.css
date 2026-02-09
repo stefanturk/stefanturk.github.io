@@ -1280,3 +1280,8 @@ height: 100%;
 			text-align: center;
 			width: 90%;
 		}
+
+.band-member-photo {
+  border-radius: 50%;
+  border: 5px solid black;
+}
